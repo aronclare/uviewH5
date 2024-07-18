@@ -1,0 +1,1 @@
+已引入uview,并配置好easycom、main.js、uni.scss,page.json
