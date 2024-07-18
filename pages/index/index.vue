@@ -61,6 +61,10 @@
 				</u-list-item>
 			</u-list>
 	</view>
+	
+	<view>
+		<button type="default" @click="clickeHandle">泡我</button>
+	</view>
 	<view>
 			<u-tabbar
 			:placeholder="false"
@@ -124,6 +128,10 @@
 								url: this.urls[uni.$u.random(0, this.urls.length - 1)]
 							})
 						}
+					},
+					clickeHandle(){
+						console.log('我被点击了');
+						console.log('it`s OK?');
 					}
 		},
 	}
