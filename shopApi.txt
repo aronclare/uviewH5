@@ -1,0 +1,1010 @@
+首页，get('/api/index', {params})// get请求，获取首页数据
+{
+	"categories": [
+		{
+			"id": 1,
+			"pid": 0,
+			"name": "前沿",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 2,
+					"pid": 1,
+					"name": "区块链",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 3,
+					"pid": 1,
+					"name": "人工智能",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 4,
+			"pid": 0,
+			"name": "前端",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 11,
+					"pid": 4,
+					"name": "Node.js",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 10,
+					"pid": 4,
+					"name": "ES6",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 9,
+					"pid": 4,
+					"name": "React",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 8,
+					"pid": 4,
+					"name": "Vue",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 7,
+					"pid": 4,
+					"name": "HTML/CSS",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 6,
+					"pid": 4,
+					"name": "JavaScript",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 5,
+					"pid": 4,
+					"name": "小程序",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 12,
+			"pid": 0,
+			"name": "后端",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 13,
+					"pid": 12,
+					"name": "Java",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 16,
+					"pid": 12,
+					"name": "GoLang",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 15,
+					"pid": 12,
+					"name": "Python",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 14,
+					"pid": 12,
+					"name": "PHP",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 17,
+			"pid": 0,
+			"name": "云计算",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 20,
+					"pid": 17,
+					"name": "混合云",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 19,
+					"pid": 17,
+					"name": "公有云",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 18,
+					"pid": 17,
+					"name": "私有云",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 21,
+			"pid": 0,
+			"name": "产品设计",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 23,
+					"pid": 21,
+					"name": "网站设计",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 22,
+					"pid": 21,
+					"name": "UI设计",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 181,
+			"pid": 0,
+			"name": "不不不",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": []
+		}
+	],
+	"goods": {
+		"current_page": 1,
+		"data": [
+			{
+				"id": 47,
+				"title": "《区块链》",
+				"price": 32,
+				"stock": 678,
+				"sales": 99,
+				"cover": "product/2020-0820-5f3e152e57d13.png",
+				"description": "前沿 / 《区块链》",
+				"collects_count": 187,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e152e57d13.png"
+			},
+			{
+				"id": 178,
+				"title": "《细说网页制作》",
+				"price": 38,
+				"stock": 834,
+				"sales": 98,
+				"cover": "product/2020-0820-5f3e08d935cc4.png",
+				"description": "前端 / 《细说网页制作》",
+				"collects_count": 89,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e08d935cc4.png"
+			},
+			{
+				"id": 234,
+				"title": "《细说PHP》第2版",
+				"price": 78,
+				"stock": 453,
+				"sales": 98,
+				"cover": "product/2020-0820-5f3e084e2b714.png",
+				"description": "PHP / 《细说PHP》第2版",
+				"collects_count": 73,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e084e2b714.png"
+			},
+			{
+				"id": 23,
+				"title": "《Java程序设计》",
+				"price": 108,
+				"stock": 25,
+				"sales": 98,
+				"cover": "product/2020-0820-5f3e16f27f829.png",
+				"description": "后端 / 《Java程序设计》",
+				"collects_count": 54,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e16f27f829.png"
+			},
+			{
+				"id": 49,
+				"title": "《机器学习》",
+				"price": 76,
+				"stock": 370,
+				"sales": 97,
+				"cover": "product/2020-0820-5f3e15bc69891.png",
+				"description": "前沿 / 《机器学习》",
+				"collects_count": 38,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e15bc69891.png"
+			},
+			{
+				"id": 59,
+				"title": "《细说JavaScript》",
+				"price": 58,
+				"stock": 242,
+				"sales": 95,
+				"cover": "product/2020-0820-5f3e1871194a5.png",
+				"description": "前端 / 《细说JavaScript》",
+				"collects_count": 18,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e1871194a5.png"
+			},
+			{
+				"id": 181,
+				"title": "《细说PHP》第4版",
+				"price": 108,
+				"stock": 256,
+				"sales": 95,
+				"cover": "product/2020-0820-5f3e059c25d7b.png",
+				"description": "后端 / 《细说PHP》第4版",
+				"collects_count": 25,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e059c25d7b.png"
+			},
+			{
+				"id": 185,
+				"title": "《区块链》",
+				"price": 32,
+				"stock": 6,
+				"sales": 95,
+				"cover": "product/2020-0820-5f3e152e57d13.png",
+				"description": "前沿 / 《区块链》",
+				"collects_count": 25,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e152e57d13.png"
+			},
+			{
+				"id": 209,
+				"title": "《细说PHP》第2版",
+				"price": 78,
+				"stock": 561,
+				"sales": 95,
+				"cover": "product/2020-0820-5f3e084e2b714.png",
+				"description": "PHP / 《细说PHP》第2版",
+				"collects_count": 29,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e084e2b714.png"
+			},
+			{
+				"id": 167,
+				"title": "《产品思维》",
+				"price": 76,
+				"stock": 643,
+				"sales": 94,
+				"cover": "product/2020-0820-5f3e180ea8886.png",
+				"description": "产品设计 / 《产品思维》",
+				"collects_count": 21,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e180ea8886.png"
+			}
+		],
+		"first_page_url": "https://api.shop.eduwork.cn/api/index?recommend=0&sales=1&new=0&page=1",
+		"from": 1,
+		"next_page_url": "https://api.shop.eduwork.cn/api/index?recommend=0&sales=1&new=0&page=2",
+		"path": "https://api.shop.eduwork.cn/api/index",
+		"per_page": 10,
+		"prev_page_url": null,
+		"to": 10
+	},
+	"slides": [
+		{
+			"id": 4,
+			"title": "融职图书商城",
+			"url": "https://www.eduwork.cn",
+			"img": "ad/2020-0820-5f3dfe85ae3fd.png",
+			"status": 1,
+			"seq": 5,
+			"created_at": "2022-03-29T11:27:56.000000Z",
+			"updated_at": "2022-08-27T03:07:22.000000Z",
+			"img_url": "http://oss.shop.eduwork.cn/ad/2020-0820-5f3dfe85ae3fd.png"
+		},
+		{
+			"id": 5,
+			"title": "融职图书商城",
+			"url": "https://www.eduwork.cn",
+			"img": "ad/2020-0827-5f474a7259d67.png",
+			"status": 1,
+			"seq": 10,
+			"created_at": "2022-03-29T11:27:56.000000Z",
+			"updated_at": "2022-08-27T03:01:33.000000Z",
+			"img_url": "http://oss.shop.eduwork.cn/ad/2020-0827-5f474a7259d67.png"
+		},
+		{
+			"id": 3,
+			"title": "融职图书商城",
+			"url": "https://www.eduwork.cn",
+			"img": "ad/2020-0820-5f3dfe9530bfd.png",
+			"status": 1,
+			"seq": 11,
+			"created_at": "2022-08-27T03:03:54.000000Z",
+			"updated_at": "2022-08-27T03:03:54.000000Z",
+			"img_url": "http://oss.shop.eduwork.cn/ad/2020-0820-5f3dfe9530bfd.png"
+		}
+	],
+	"links": [
+		{
+			"id": 1,
+			"name": "学习猿地",
+			"url": "https://www.eduwork.cn",
+			"img": "http://shopadmin.eduwork.cn/static/logo.434d10f5.png",
+			"seq": 1,
+			"status": 1,
+			"created_at": "2022-09-03T08:40:31.000000Z",
+			"updated_at": "2022-09-03T08:40:31.000000Z",
+			"img_url": "http://shopadmin.eduwork.cn/static/logo.434d10f5.png"
+		},
+		{
+			"id": 2,
+			"name": "学习猿地1",
+			"url": "https://www.lmonkey.com",
+			"img": "http://shopadmin.eduwork.cn/static/logo.434d10f5.png",
+			"seq": 1,
+			"status": 1,
+			"created_at": "2022-09-03T08:43:01.000000Z",
+			"updated_at": "2022-09-03T08:43:01.000000Z",
+			"img_url": "http://shopadmin.eduwork.cn/static/logo.434d10f5.png"
+		}
+	]
+}
+
+get(`/api/goods/${id}`)// 商品详情//商品详情
+{
+	"goods": {
+		"id": 47,
+		"user_id": 1,
+		"category_id": 1,
+		"title": "《区块链》",
+		"description": "前沿 / 《区块链》",
+		"price": 32,
+		"stock": 678,
+		"sales": 99,
+		"cover": "product/2020-0820-5f3e152e57d13.png",
+		"pics": null,
+		"is_on": 1,
+		"is_recommend": 1,
+		"details": "<img src=\"https://oss.shop.eduwork.cn/article/2020-0820-5f3e1522b0b1e.jpg\" alt=\"qq.jpg\" width=\"750\" height=\"13291\" />",
+		"created_at": "2021-01-04T00:16:39.000000Z",
+		"updated_at": "2022-08-26T09:21:53.000000Z",
+		"collects_count": 187,
+		"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e152e57d13.png",
+		"pics_url": [],
+		"is_collect": 0,
+		"comments": []
+	},
+	"like_goods": [
+		{
+			"id": 49,
+			"title": "《机器学习》",
+			"price": 76,
+			"cover": "product/2020-0820-5f3e15bc69891.png",
+			"sales": 97,
+			"collects_count": 38,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e15bc69891.png"
+		},
+		{
+			"id": 125,
+			"title": "《区块链》",
+			"price": 32,
+			"cover": "product/2020-0820-5f3e152e57d13.png",
+			"sales": 51,
+			"collects_count": 0,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e152e57d13.png"
+		},
+		{
+			"id": 186,
+			"title": "《人工智能》",
+			"price": 45,
+			"cover": "product/2020-0820-5f3e156b2c657.png",
+			"sales": 1,
+			"collects_count": 0,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e156b2c657.png"
+		},
+		{
+			"id": 77,
+			"title": "《机器学习》",
+			"price": 76,
+			"cover": "product/2020-0820-5f3e15bc69891.png",
+			"sales": 67,
+			"collects_count": 0,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e15bc69891.png"
+		},
+		{
+			"id": 38,
+			"title": "《机器学习》",
+			"price": 76,
+			"cover": "product/2020-0820-5f3e15bc69891.png",
+			"sales": 91,
+			"collects_count": 11,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e15bc69891.png"
+		},
+		{
+			"id": 144,
+			"title": "《机器学习》",
+			"price": 76,
+			"cover": "product/2020-0820-5f3e15bc69891.png",
+			"sales": 80,
+			"collects_count": 1,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e15bc69891.png"
+		},
+		{
+			"id": 217,
+			"title": "《机器学习》",
+			"price": 76,
+			"cover": "product/2020-0820-5f3e15bc69891.png",
+			"sales": 42,
+			"collects_count": 5,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e15bc69891.png"
+		},
+		{
+			"id": 116,
+			"title": "《区块链》",
+			"price": 32,
+			"cover": "product/2020-0820-5f3e152e57d13.png",
+			"sales": 11,
+			"collects_count": 0,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e152e57d13.png"
+		},
+		{
+			"id": 101,
+			"title": "《机器学习》",
+			"price": 76,
+			"cover": "product/2020-0820-5f3e15bc69891.png",
+			"sales": 92,
+			"collects_count": 7,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e15bc69891.png"
+		},
+		{
+			"id": 68,
+			"title": "《人工智能》",
+			"price": 45,
+			"cover": "product/2020-0820-5f3e156b2c657.png",
+			"sales": 80,
+			"collects_count": 2,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e156b2c657.png"
+		}
+	]
+}
+
+get('/api/carts',{params})// 购物车列表
+
+id=76返回数据
+{
+	"data": [
+		{
+			"id": 29133,
+			"user_id": 22493,
+			"goods_id": 234,
+			"num": 1,
+			"is_checked": 1
+		},
+		{
+			"id": 29135,
+			"user_id": 22493,
+			"goods_id": 47,
+			"num": 1,
+			"is_checked": 1
+		},
+		{
+			"id": 29136,
+			"user_id": 22493,
+			"goods_id": 178,
+			"num": 2,
+			"is_checked": 1
+		}
+	]
+}
+get('/api/goods',{params})// 商品列表
+{
+	"goods": {
+		"current_page": 1,
+		"data": [
+			{
+				"id": 131,
+				"title": "《Linux命令大全》",
+				"price": 55,
+				"cover": "product/2020-0820-5f3e1745869a5.png",
+				"category_id": 17,
+				"sales": 70,
+				"updated_at": "2022-08-28T03:18:23.000000Z",
+				"comments_count": 0,
+				"collects_count": 7,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e1745869a5.png"
+			},
+			{
+				"id": 221,
+				"title": "《Linux命令大全》",
+				"price": 55,
+				"cover": "product/2020-0820-5f3e1745869a5.png",
+				"category_id": 17,
+				"sales": 86,
+				"updated_at": "2022-08-27T12:29:30.000000Z",
+				"comments_count": 0,
+				"collects_count": 6,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e1745869a5.png"
+			},
+			{
+				"id": 91,
+				"title": "《产品经理手册》",
+				"price": 45,
+				"cover": "product/2020-0820-5f3e17d6ed7e8.png",
+				"category_id": 21,
+				"sales": 27,
+				"updated_at": "2022-08-27T12:29:00.000000Z",
+				"comments_count": 0,
+				"collects_count": 3,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e17d6ed7e8.png"
+			},
+			{
+				"id": 28,
+				"title": "《细说JavaScript》",
+				"price": 58,
+				"cover": "product/2020-0820-5f3e1871194a5.png",
+				"category_id": 4,
+				"sales": 17,
+				"updated_at": "2022-08-27T06:00:28.000000Z",
+				"comments_count": 0,
+				"collects_count": 5,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e1871194a5.png"
+			},
+			{
+				"id": 134,
+				"title": "《产品思维》",
+				"price": 76,
+				"cover": "product/2020-0820-5f3e180ea8886.png",
+				"category_id": 21,
+				"sales": 41,
+				"updated_at": "2022-08-27T05:33:06.000000Z",
+				"comments_count": 0,
+				"collects_count": 4,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e180ea8886.png"
+			},
+			{
+				"id": 31,
+				"title": "《产品经理手册》",
+				"price": 45,
+				"cover": "product/2020-0820-5f3e17d6ed7e8.png",
+				"category_id": 21,
+				"sales": 3,
+				"updated_at": "2022-08-27T05:27:36.000000Z",
+				"comments_count": 0,
+				"collects_count": 8,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e17d6ed7e8.png"
+			},
+			{
+				"id": 37,
+				"title": "《人工智能》",
+				"price": 45,
+				"cover": "product/2020-0820-5f3e156b2c657.png",
+				"category_id": 1,
+				"sales": 7,
+				"updated_at": "2022-08-26T10:05:31.000000Z",
+				"comments_count": 0,
+				"collects_count": 4,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e156b2c657.png"
+			},
+			{
+				"id": 38,
+				"title": "《机器学习》",
+				"price": 76,
+				"cover": "product/2020-0820-5f3e15bc69891.png",
+				"category_id": 1,
+				"sales": 91,
+				"updated_at": "2022-08-26T10:05:31.000000Z",
+				"comments_count": 0,
+				"collects_count": 11,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e15bc69891.png"
+			},
+			{
+				"id": 47,
+				"title": "《区块链》",
+				"price": 32,
+				"cover": "product/2020-0820-5f3e152e57d13.png",
+				"category_id": 1,
+				"sales": 99,
+				"updated_at": "2022-08-26T09:21:53.000000Z",
+				"comments_count": 0,
+				"collects_count": 188,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e152e57d13.png"
+			},
+			{
+				"id": 216,
+				"title": "《人工智能》",
+				"price": 45,
+				"cover": "product/2020-0820-5f3e156b2c657.png",
+				"category_id": 1,
+				"sales": 28,
+				"updated_at": "2022-08-26T09:21:53.000000Z",
+				"comments_count": 0,
+				"collects_count": 3,
+				"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e156b2c657.png"
+			}
+		],
+		"first_page_url": "https://api.shop.eduwork.cn/api/goods?recommend=0&page=1",
+		"from": 1,
+		"next_page_url": "https://api.shop.eduwork.cn/api/goods?recommend=0&page=2",
+		"path": "https://api.shop.eduwork.cn/api/goods",
+		"per_page": 10,
+		"prev_page_url": null,
+		"to": 10
+	},
+	"recommend_goods": [
+		{
+			"id": 221,
+			"title": "《Linux命令大全》",
+			"price": 55,
+			"cover": "product/2020-0820-5f3e1745869a5.png",
+			"comments_count": 0,
+			"collects_count": 6,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e1745869a5.png"
+		},
+		{
+			"id": 20,
+			"title": "《机器学习》",
+			"price": 76,
+			"cover": "product/2020-0820-5f3e15bc69891.png",
+			"comments_count": 0,
+			"collects_count": 4,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e15bc69891.png"
+		},
+		{
+			"id": 163,
+			"title": "《产品经理手册》",
+			"price": 45,
+			"cover": "product/2020-0820-5f3e17d6ed7e8.png",
+			"comments_count": 0,
+			"collects_count": 1,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e17d6ed7e8.png"
+		},
+		{
+			"id": 211,
+			"title": "《细说PHP》第4版",
+			"price": 108,
+			"cover": "product/2020-0820-5f3e059c25d7b.png",
+			"comments_count": 0,
+			"collects_count": 5,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e059c25d7b.png"
+		},
+		{
+			"id": 117,
+			"title": "《细说JavaScript》",
+			"price": 68,
+			"cover": "product/2020-0820-5f3e092c2d07f.png",
+			"comments_count": 0,
+			"collects_count": 2,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e092c2d07f.png"
+		},
+		{
+			"id": 108,
+			"title": "《产品经理手册》",
+			"price": 45,
+			"cover": "product/2020-0820-5f3e17d6ed7e8.png",
+			"comments_count": 0,
+			"collects_count": 0,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e17d6ed7e8.png"
+		},
+		{
+			"id": 53,
+			"title": "《Java程序设计》",
+			"price": 108,
+			"cover": "product/2020-0820-5f3e16f27f829.png",
+			"comments_count": 0,
+			"collects_count": 1,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e16f27f829.png"
+		},
+		{
+			"id": 34,
+			"title": "《Java程序设计》",
+			"price": 108,
+			"cover": "product/2020-0820-5f3e16f27f829.png",
+			"comments_count": 0,
+			"collects_count": 2,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e16f27f829.png"
+		},
+		{
+			"id": 76,
+			"title": "《细说网页制作》",
+			"price": 38,
+			"cover": "product/2020-0820-5f3e08d935cc4.png",
+			"comments_count": 0,
+			"collects_count": 0,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e08d935cc4.png"
+		},
+		{
+			"id": 224,
+			"title": "《产品思维》",
+			"price": 76,
+			"cover": "product/2020-0820-5f3e180ea8886.png",
+			"comments_count": 0,
+			"collects_count": 0,
+			"cover_url": "http://oss.shop.eduwork.cn/product/2020-0820-5f3e180ea8886.png"
+		}
+	],
+	"categories": [
+		{
+			"id": 1,
+			"pid": 0,
+			"name": "前沿",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 2,
+					"pid": 1,
+					"name": "区块链",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 3,
+					"pid": 1,
+					"name": "人工智能",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 4,
+			"pid": 0,
+			"name": "前端",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 11,
+					"pid": 4,
+					"name": "Node.js",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 10,
+					"pid": 4,
+					"name": "ES6",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 9,
+					"pid": 4,
+					"name": "React",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 8,
+					"pid": 4,
+					"name": "Vue",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 7,
+					"pid": 4,
+					"name": "HTML/CSS",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 6,
+					"pid": 4,
+					"name": "JavaScript",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 5,
+					"pid": 4,
+					"name": "小程序",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 12,
+			"pid": 0,
+			"name": "后端",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 13,
+					"pid": 12,
+					"name": "Java",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 16,
+					"pid": 12,
+					"name": "GoLang",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 15,
+					"pid": 12,
+					"name": "Python",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 14,
+					"pid": 12,
+					"name": "PHP",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 17,
+			"pid": 0,
+			"name": "云计算",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 20,
+					"pid": 17,
+					"name": "混合云",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 19,
+					"pid": 17,
+					"name": "公有云",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 18,
+					"pid": 17,
+					"name": "私有云",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 21,
+			"pid": 0,
+			"name": "产品设计",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": [
+				{
+					"id": 23,
+					"pid": 21,
+					"name": "网站设计",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				},
+				{
+					"id": 22,
+					"pid": 21,
+					"name": "UI设计",
+					"level": 2,
+					"status": 1,
+					"seq": 1
+				}
+			]
+		},
+		{
+			"id": 181,
+			"pid": 0,
+			"name": "不不不",
+			"level": 1,
+			"status": 1,
+			"seq": 1,
+			"children": []
+		}
+	]
+}
+
+
+get('/api/user')// get请求获取用户信息
+put('/api/user',params)// put请求，更改用户名
+post('/api/user/avatar',params)// post请求，更新头像
+
+{
+	"id": 22493,
+	"name": "admin",
+	"email": "admin@gmail.com",
+	"phone": null,
+	"avatar": null,
+	"openid": null,
+	"total": 10,
+	"unum": 0,
+	"avatar_url": "https://api.shop.eduwork.cn/imgs/avatar.png",
+	"is_locked": 0,
+	"created_at": "2024-07-20 09:24:14",
+	"updated_at": "2024-07-20 09:24:14"
+}
+
+post(`/api/collects/goods/${id}`)// 收藏或取消收藏
+
+post('/api/auth/login', params)// post请求，用户登录
+参数
+email:admin@gmail.com
+password:adminadmin
+请求成功会获取到一个token
+{
+	"access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5zaG9wLmVkdXdvcmsuY24vYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3MjE0NTU0NjgsImV4cCI6MTcyMTgxNTQ2OCwibmJmIjoxNzIxNDU1NDY4LCJqdGkiOiJKaFhHMTJqRVRnbFRCNEZvIiwic3ViIjoiMjI0OTMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.6dts50tJQl7GH_5jGlQGM_qaCJma5RyZHfDxt3C1TgI",
+	"token_type": "Bearer",
+	"expires_in": 360000
+}
+
+post('/api/auth/register', params)// post请求，用户注册
+参数
+name:admin
+email:admin@gmail.com
+password:adminadmin
+password_confirmation:adminadmin     //二次确认密码一致
+
+
